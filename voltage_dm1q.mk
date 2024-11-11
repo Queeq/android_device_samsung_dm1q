@@ -17,6 +17,9 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 2160
 
+# Voltage-Ify
+VOLTAGE_BUILD_TYPE = OFFICIAL
+
 PRODUCT_NAME := voltage_dm1q
 PRODUCT_DEVICE := dm1q
 PRODUCT_BRAND := Samsung
