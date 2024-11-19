@@ -18,7 +18,6 @@ module = ExtractUtilsModule(
     'dm1q',
     'samsung',
     namespace_imports=namespace_imports,
-    check_elf=True,
     add_firmware_proprietary_file=True,
 )
 
